@@ -5,7 +5,7 @@ Este é um projeto de chatbot com interface web, desenvolvido com **Ruby on Rail
 🎨 Frontend com JavaScript
 
 A interface é feita com HTML, Bootstrap 5 e JavaScript puro. Usamos form_with, spinner com display: none, e JavaScript para exibir a animação de carregamento durante a requisição da IA.
----
+
 
 ## 🚀 Funcionalidades
 
