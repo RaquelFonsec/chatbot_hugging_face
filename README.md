@@ -1,17 +1,20 @@
 # 🤖 Chatbot com Hugging Face e Ruby on Rails
 
+Este é um projeto de chatbot com interface web, desenvolvido com **Ruby on Rails**, utilizando um modelo de linguagem da **Hugging Face**. A aplicação permite o envio de mensagens, exibição de respostas automáticas da IA, histórico e testes automatizados com RSpec.
 
+🎨 Frontend com JavaScript
 
-Este é um projeto de chatbot com interface web, feito em **Ruby on Rails**, utilizando um modelo de linguagem da **Hugging Face**. A aplicação permite enviar mensagens, salvar o histórico e visualizar as respostas geradas pela IA.
-
+A interface é feita com HTML, Bootstrap 5 e JavaScript puro. Usamos form_with, spinner com display: none, e JavaScript para exibir a animação de carregamento durante a requisição da IA.
 ---
 
 ## 🚀 Funcionalidades
 
 - Interface web estilizada com **Bootstrap 5**
-- Integração com modelos da **Hugging Face API**
-- Histórico de mensagens
-- Tratamento de erros com alertas personalizados
+- Integração com **modelos da Hugging Face API**
+- Histórico de conversas persistente com **PostgreSQL**
+- Interações assíncronas com **JavaScript puro**
+- Spinner de carregamento durante resposta da IA
+- Tratamento de erros com mensagens visuais
 - Testes automatizados com **RSpec**
 
 ---
@@ -149,7 +152,15 @@ Abra o navegador em:
 
 🧪 Testes automatizados com RSpec
 
-Este projeto possui uma suíte de testes com RSpec. Para rodar:
+Este projeto contém testes automatizados para:
+
+Controller
+
+Serviço Hugging Face
+
+Integração (sistema)
+
+Execute os testes com:
 
 bundle exec rspec
 
